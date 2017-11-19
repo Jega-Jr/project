@@ -1,0 +1,143 @@
+body
+{
+	background-image: url('../dow.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+@media screen and (max-width: 760px)
+{
+	body
+	{
+		background-size: 100%;
+		background-attachment: fixed;
+		background-position: center; 
+	}
+}
+.head
+{
+	
+	background: rgba(0,0,0,0.4);
+	color: red;
+	font-weight: bolder;
+	font-family: monospace;
+	clear: left;
+	float: left;
+	padding: 35px;
+	width: 150px;
+	height: 20px;
+	font-size: 2em;
+	position: absolute;
+	left: 60px;
+	text-align: right;
+	top: 10px;
+}
+.icon 
+{
+	position: absolute;
+	right: 90px;
+	color: white;
+}
+
+.icon i
+{
+	color: red;
+}
+
+.head span
+{
+	color: #000;
+}
+.body
+{
+	color: #fff;
+	text-align: center;
+	font-size: 3em;
+	top: 170px;
+	position: absolute;
+	font-family: arial;
+	font-weight: bolder;
+	left: 570px;
+}
+#body
+{
+	color: red;
+	text-align: center;
+	font-size: 3em;
+	top: 220px;
+	position: absolute;
+	font-family: arial;
+	font-weight: bolder;
+	left: 350px;
+}
+.bodi
+{
+	color: #fff;
+	text-align: center;
+	font-size: 3em;
+	top: 270px;
+	position: absolute;
+	font-family: arial;
+	font-weight: bolder;
+	left: 290px;
+}
+#foot
+{
+	color: red;
+	position: absolute;
+	left: 265px;
+	top: 380px;
+	font-weight: bolder;
+	font-family: arial;
+	text-shadow: 1px 1px 1px red;
+}
+#foot span
+{
+	margin: 75px
+}
+#foot a
+{
+	text-decoration: none;
+	color: red;
+}
+#foot a:hover
+{
+	color: #fff;
+	text-shadow: 1px 1px 1px #fff;
+}
+input
+{
+	color: #fff;
+	margin: 50px;
+	font-size: 10px;
+	font-weight: bolder;
+}
+input[type=button] 
+{
+	position: absolute;
+	left: 540px;
+	top: 400px;
+	width: 100px;
+	height: 40px;
+	border-color: red;
+	background: red;
+	cursor: pointer;
+}
+input[type=button]:hover
+{
+	background: rgba(0,0,0,0.4);
+}
+input[type=reset] 
+{
+	position: absolute;
+	left: 540px;
+	top: 470px;
+	width: 100px;
+	height: 40px;
+	border-color: red;
+	background: red;
+	cursor: pointer;
+}
+input[type=reset]:hover
+{
+	background: rgba(0,0,0,0.4);
+}
